@@ -1,0 +1,199 @@
+/****** BASE STYLES ******/
+/******* Color Scheme slate blue #424f67, medium green #a9c0b2, light green #dcebdb light grey #F8F8F8 ******/
+/******** Font CSS font-family: 'Tangerine', cursive; font-family: 'Signika', sans-serif; font-family: 'Overlock', cursive; font-family: 'Bree Serif', serif; ********/
+h1 {
+  font-family: 'Tangerine', Georgia, serif;
+}
+
+h2 {
+  font-family: 'Signika', sans-serif;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #424f67;
+}
+
+h4 {
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: #424f67;
+
+}
+
+nav {
+  font-family: 'Signika', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Signika', sans-serif;
+  color: #424f67;
+  font-size: 16px;
+}
+
+/****** GRID ********/
+/****** What purpose does "margin: 0 auto;" serve? ******/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+#work #about #skills {
+  height: auto;
+}
+
+/******** HEADER CSS ********/
+header {
+  width: 100%;
+  background-color: #424f67;
+  background-size: cover;
+  border-bottom: 3px solid #a9c0b2;
+  padding: 20px 0 0 20px;
+  height: 200px;
+}
+
+header h1 {
+  font-size: 90px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+}
+
+header nav {
+  font-size: 12px;
+  padding-top: 10px;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding-left: 60px;
+  color: white;
+}
+
+header h2 {
+  font-size: 22px;
+  color: white;
+  margin-left: -15px;
+  clear: both;
+}
+
+/******* MAIN CSS ********/
+.links a {
+  color: #424f67;
+  text-decoration: none;
+}
+
+/******** ABOUT CSS ********/
+#about {
+  padding-top: 50px;
+}
+
+#about h3 {
+  text-align: center;
+}
+/**** Change the padding to center the text ******/
+#about p {
+  padding: 0 50px 60px 0;
+  border-bottom: 3px solid #a9c0b2;
+  margin-bottom: 40px;
+}
+
+
+/******** WORK CSS ********/
+#work .full-width {
+  padding-top: 10px;
+  clear: both;
+}
+
+#work h3 {
+  text-align: center;
+}
+
+#work h4 {
+  text-align: center;
+}
+
+#work .third-width {
+  background-color: #F8F8F8;
+  margin-bottom: 30px;
+}
+
+#work span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#work img.resize {
+  width: 400px;
+  height: 200px;
+}
+
+/******** SKILLS CSS ********/
+#skills {
+  padding-top: 40px;
+  clear: both;
+}
+
+#skills h3{
+  text-align: center;
+}
+
+#skills .full-width {
+  padding-top: 40px;
+  border-top: 3px solid #a9c0b2;
+  border-bottom: 3px solid #a9c0b2;
+}
+
+#skills p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/******** FOOTER CSS ********/
+footer {
+  height: 300px;
+}
+
+footer img.sm-resize {
+  width: 40px;
+  height: 40px;
+}
+
+footer nav {
+  margin-top: 20px;
+  margin-left: 275px
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  padding-left: 50px;
+}

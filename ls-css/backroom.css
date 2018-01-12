@@ -1,0 +1,218 @@
+/****** BASE STYLES ******/
+/******* Color Scheme slate blue #424f67, medium green #a9c0b2, light green #dcebdb light grey #F8F8F8 ******/
+/******** Font CSS font-family: 'Tangerine', cursive; font-family: 'Signika', sans-serif; font-family: 'Overlock', cursive; font-family: 'Bree Serif', serif; ********/
+h1 {
+  font-family: 'Tangerine', Georgia, serif;
+}
+
+h2 {
+  font-family: 'Signika', sans-serif;
+  font-variant: small-caps;
+}
+
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+nav {
+  font-family: 'Signika', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+}
+
+/****** GRID ********/
+/****** What purpose does "margin: 0 auto;" serve? ******/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+#port, #rogue, #jubilee, #llal {
+  margin-top: 40px;
+  background-color: #F8F8F8;
+  border-top: 3px solid #a9c0b2;
+  border-bottom: 3px solid #a9c0b2;
+  height: 500px;
+  clear: both;
+}
+
+h3 {
+  margin-top: 80px;
+}
+
+footer {
+  height: 300px;
+}
+
+/******** HEADER CSS ********/
+header {
+  width: 100%;
+  background-color: #424f67;
+  background-size: cover;
+  border-bottom: 3px solid #a9c0b2;
+  padding: 20px 0 0 20px;
+  height: 200px;
+}
+
+header h1 {
+  font-size: 90px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+}
+
+header nav {
+  font-size: 12px;
+  padding-top: 10px;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding-left: 55px;
+  color: white;
+}
+
+header h2 {
+  font-size: 22px;
+  color: white;
+  margin-left: -15px;
+  clear: both;
+}
+
+/******* MAIN CSS ********/
+.links a {
+  color: #424f67;
+  text-decoration: none;
+}
+
+/******** Port CSS ********/
+#port h3 {
+  font-family: 'Bree Serif', serif;
+  color: #424f67;
+  text-align: center;
+}
+
+#port p {
+  font-family: 'Signika', sans-serif;
+  color: #424f67;
+}
+
+#port img.resize {
+  width: 500px;
+  height: 250px;
+}
+
+/******** Rogue CSS ********/
+#rogue h3 {
+  text-align: center;
+}
+
+#rogue h3 .link {
+  font-family: 'Montserrat', sans-serif;
+  color: #77a466;
+  text-decoration: none;
+}
+
+#rogue p {
+  font-family: 'Montserrat', sans-serif;
+  color: #77a466;
+  font-weight: bold;
+  padding-right: 80px;
+}
+
+#rogue img.resize {
+  width: 500px;
+  height: 250px;
+}
+/******** Jubilee CSS ********/
+#jubilee h3 {
+  text-align: center;
+}
+
+#jubilee h3 .link {
+  font-family: 'Lora', serif;
+  color: #bbc085;
+  text-decoration: none;
+}
+
+#jubilee p {
+  font-family: 'Lora', serif;
+  color: #bbc085;
+  font-weight: bold;
+}
+
+#jubilee img.resize {
+  width: 500px;
+  height: 250px;
+}
+/******** Llal CSS *******/
+#llal h3 {
+  font-family: 'Overlock', cursive;
+  color: #555555;
+  text-align: center;
+}
+
+#llal p {
+  font-family: 'Overlock', cursive;
+  font-weight: bold;
+  color: #555555;
+}
+
+#llal img.resize {
+  width: 500px;
+  height: 250px;
+}
+
+/******** FOOTER CSS ********/
+footer {
+  height: 300px;
+}
+
+footer img.sm-resize {
+  width: 40px;
+  height: 40px;
+}
+
+footer nav {
+  margin-top: 20px;
+  margin-left: 275px
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+footer #up {
+  font-size: 40px;
+  font-weight: bold;
+}
